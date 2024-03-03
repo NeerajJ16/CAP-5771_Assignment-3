@@ -98,7 +98,7 @@ def question3():
     answers = {}
 
     # type: a string that evaluates to a float
-    answers["(a) SSE"] = "4*(R^2)"
+    answers["(a) SSE"] = "(R^2)*4"
 
     # type: a string that evaluates to a float
     answers["(b) SSE"] = "4*((a*a) + (b*b) + (c*c))"
@@ -116,28 +116,28 @@ def question4():
     answers = {}
 
     # type: int
-    answers["(a) Circle (a)"] = 0
+    answers["(a) Circle (a)"] = 1
 
     # type: int
-    answers["(a) Circle (b)"] = 0
+    answers["(a) Circle (b)"] = 1
 
     # type: int
-    answers["(a) Circle (c)"] = 0
+    answers["(a) Circle (c)"] = 1
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "Due to the equal number of distance and points(100 points) in A and B, 1 centroid will be attracted towrds the A. The right side of B(2/3rd portion) now has the 2 centroids. Circle C has more points (100,000 points) and is equally placed to B, it guarantees to hold a centroid due to the stronger pull, despite the initial absence. Even distribution of points in A and B means each should attract a centroid due to their similar pull."
 
     # type: int
-    answers["(b) Circle (a)"] = 0
+    answers["(b) Circle (a)"] = 1
 
     # type: int
-    answers["(b) Circle (b)"] = 0
+    answers["(b) Circle (b)"] = 1
 
     # type: int
-    answers["(b) Circle (c)"] = 0
+    answers["(b) Circle (c)"] = 1
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "The centroid will stay at A due to the existing points in A and absence of stronger pull. Stronger pull from C will attract one centroid from B. Thus all the three circles will have 1, 1, 1 centroids."
 
     # type: int
     answers["(c) Circle (a)"] = 0
@@ -146,10 +146,10 @@ def question4():
     answers["(c) Circle (b)"] = 0
 
     # type: int
-    answers["(c) Circle (c)"] = 0
+    answers["(c) Circle (c)"] = 2
 
     # type: explanatory string (at least four words)
-    answers["(c) explain"] = ""
+    answers["(c) explain"] = "Because circles A and B are close together but far apart from circle C, the points from both will be assigned to the centroid in A. The points in C will be divided between two centroids, each with 50,000 points.   Because A and B have the same number of points, the centroid in A will move between the two. The centroids in C will move apart slightly, but they will still be in C, with half of the points."
 
     return answers
 
