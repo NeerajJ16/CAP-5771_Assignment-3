@@ -313,22 +313,23 @@ def question9():
     answers = {}
 
     # type: list
-    answers["(a)"] = []
+    answers["(a)"] = ['Hierarchical', 'Partial', 'Overlapping']
 
     # type: list
-    answers["(b)"] = []
+    answers["(b)"] = ['Partitional', 'Exclusive', 'Complete']
 
     # type: list
-    answers["(c)"] = []
+    answers["(c)"] = ['Partitional', 'fuzzy', 'complete']
+
 
     # type: list
-    answers["(d)"] = []
+    answers["(d)"] = ['Hierarchical', 'overlapping', 'partial']
 
     # type: list
-    answers["(e)"] = []
+    answers["(e)"] = ['Partitional', 'Exclusive', 'Complete']
 
     # type: explanatory string (at least four words)
-    answers["(e) explain"] = ""
+    answers["(e) explain"] = "Letter grades are distinct categories that do not overlap (exclusive), each student receives only one grade per class (exclusive), and all students in the class will receive a grade (complete)."
 
     return answers
 
