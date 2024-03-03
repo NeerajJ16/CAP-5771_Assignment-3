@@ -233,17 +233,16 @@ def question7():
     answers = {}
 
     # type: string
-    answers["(a)"] = ""
+    answers["(a)"] = "Cluster 4"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "Cluster 4 has highest entropy due to more even distribution of categories."
 
     # type: string
-    answers["(b)"] = ""
+    answers["(b)"] = "Cluster 1"
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
-
+    answers["(b) explain"] = "Cluster 1 has low entropy due to the unequal distribution.The vast majority of its data points fall into a single category, making it highly homogeneous." 
     return answers
 
 
