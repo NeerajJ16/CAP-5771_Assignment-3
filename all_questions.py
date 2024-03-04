@@ -298,10 +298,10 @@ def question8():
     answers["(b) Row 2 explain"] = "Diagonal entry is more crisp, indicating the cluster is cohesive.  2/3 off-diagonal entries have the same color, indicating 2 other  clusters are closer to it (A and C, eventhough the off-diagonal  indicating distances with A is less crisp), and is the furthest  from 1 other cluster (D)."
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 3 explain"] = "The explanation is simimilar to row 2."
+    answers["(b) Row 3 explain"] = "Diagonal entry is more pronounced, indicating that the cluster is cohesive.  Two-thirds of the off-diagonal entries have the same color, indicating that two other clusters are closer to it (A and C, despite the fact that the off-diagonal indicating distances with A is less crisp), and it is the furthest from one other cluster (D)."
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 4 explain"] = "The Explanation is similar to row 1 in inverted order."
+    answers["(b) Row 4 explain"] = "The cluster is nearest to A, then to C, and farthest from B, and it's more tightly-knit, shown by the different colors for each distance"
     return answers
 
 
